@@ -59,7 +59,7 @@ if uploaded_file is not None:
     fig, ax = plt.subplots()
     sns.heatmap(cm, annot=True, fmt="d", cmap="Blues")
     st.pyplot(fig)
-st.subheader("Model Comparison Results")
+st.subheader("Below table for Model Comparison/Evaluation Results. If you want to get the Confusion matrix or classification report then pls Browse the dataset like 1.winequality-white.csv or winequality-red.csv or winequality_combined_binary.csv file ")
 
 results = pd.read_csv("model_comparison.csv")
 st.dataframe(results)
