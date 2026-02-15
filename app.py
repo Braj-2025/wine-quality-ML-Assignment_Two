@@ -22,7 +22,7 @@ if uploaded_file is not None:
 
 
     # It's good practice to show columns detected for debugging/user feedback
-    st.write("Columns detected:", data.columns)
+   # st.write("Columns detected:", data.columns)
 
     if 'quality' not in data.columns:
         st.error("Uploaded file must contain 'quality' column.")
