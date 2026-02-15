@@ -1,0 +1,72 @@
+
+This document is for ML Assignment 2:
+
+
+1. GitHub Repository Link containing (https://github.com/Braj-2025/wine-quality-ML-Assignment_Two.git)
+o Complete source code ( Pls refer the model project folder where we can see the file name "2025ab05161_ML_Assignment (2).ipynb" . also, if we need to access only model then pls refer the file name "train_models.py".)
+o requirements.txt 
+o A clear README.md 
+
+2. Mandatory Submission Links 
+Each submission must be a single PDF file with the following (maintain the order): 
+1. GitHub Repository Link containing 
+o Complete source code 
+o requirements.txt 
+o A clear README.md 
+2. Live Streamlit App Link - "https://wine-quality-ml-assignmenttwo-bunphom7xmvvfwvnpdtjvh.streamlit.app/"
+o Deployed using Streamlit Community Cloud 
+o Must open an interactive frontend when clicked 
+3. Screenshot 
+o Upload screenshot of assignment execution on BITS Virtual Lab -
+
+"Pls refer this git link to get the screenshot of assignment execution on BITS Virtual Lab - "https://github.com/Braj-2025/wine-quality-ML-Assignment_Two/blob/main/2025ab05161_ML_Assignment2_Screenshot.png".
+4. The Github README content (details mentioned in Section 3 - Step 5) should 
+also be part of the submitted PDF file. 
+
+Github README content-
+
+Problem Statement -
+
+Predict whether a wine is Good or Bad using physicochemical attributes.
+
+Dataset Description -
+
+Wine Quality Dataset from UCI containing:
+
+6,497 samples
+
+11 chemical features
+
+Target variable: Quality Score
+
+Models Used -
+
+Model Name 	Accuracy 	AUC 	Precision 	Recall 	F1 	MCC
+Logistic
+Regression
+Decision Tree
+kNN
+Naive Bayes
+Random Forest(Ensemble)
+XGBoost(Ensemble)
+
+
+index,	ML Model Name,			Accuracy,		AUC,			Precision,		Recall,			F1,			MCC
+0,	Logistic Regression,		0.8246153846153846,	0.8121440688234582,	0.6071428571428571,	0.2698412698412698,	0.37362637362637363,	0.3210148866422379
+1,	Decision Tree,			0.84,			0.7591027505149642,	0.5808823529411765,	0.626984126984127,	0.6030534351145038,	0.5036187854322501
+2,	kNN,				0.8323076923076923,	0.8226118532654793,	0.5876288659793815,	0.4523809523809524,	0.5112107623318386,	0.41719816338114735
+3,	Naive Bayes,			0.7607692307692308,	0.7756118987035017,	0.42297650130548303,	0.6428571428571429,	0.510236220472441,	0.3745931000081237
+4,	Random Forest,			0.8876923076923077,	0.9262465164182722,	0.8045977011494253,	0.5555555555555556,	0.6572769953051644,	0.6073407835015369
+5,	XGBoost,			0.8892307692307693,	0.9112178904640736,	0.7571428571428571,	0.6309523809523809,	0.6883116883116883,	0.6254549709343773
+ 
+
+
+Observations on the performance of each model on the chosen
+
+ML Model Name			Observation about model performance
+Logistic Regression		Works well but limited by linear assumption.
+Decision Tree			Captures non-linear patterns but slightly overfits.
+kNN				Sensitive to scaling and dataset size.
+Naive Bayes			Fast but assumes feature independence.
+Random Forest			Strong accuracy, reduces overfitting via ensemble learning.
+XGBoost				Best overall performance due to boosting and optimization.
