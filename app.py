@@ -11,7 +11,7 @@ st.title("Wine Quality Classification")
 uploaded_file = st.file_uploader("Upload Test Dataset", type=["csv"])
 
 model_name = st.selectbox("Select Model",
-("None","Logistic Regression","Decision Tree","kNN","Naive Bayes","Random Forest","XGBoost"))
+("Pls First Upload Test dataset and Select Model here","Logistic Regression","Decision Tree","kNN","Naive Bayes","Random Forest","XGBoost"))
 
 if uploaded_file is not None:
     #data = pd.read_csv(uploaded_file, sep=';')
