@@ -59,3 +59,7 @@ if uploaded_file is not None:
     fig, ax = plt.subplots()
     sns.heatmap(cm, annot=True, fmt="d", cmap="Blues")
     st.pyplot(fig)
+st.subheader("Model Comparison Results")
+
+results = pd.read_csv("model_comparison.csv")
+st.dataframe(results)
