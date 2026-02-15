@@ -11,7 +11,7 @@ st.title("Wine Quality Classification")
 uploaded_file = st.file_uploader("Upload Test Dataset", type=["csv"])
 
 model_name = st.selectbox("Select Model",
-("Logistic Regression","Decision Tree","kNN","Naive Bayes","Random Forest","XGBoost"))
+("Please Select Model",Logistic Regression","Decision Tree","kNN","Naive Bayes","Random Forest","XGBoost"))
 
 
 if uploaded_file is not None:
